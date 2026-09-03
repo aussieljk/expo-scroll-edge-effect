@@ -4,14 +4,12 @@ import {
   ScrollEdgeEffectProvider,
   useScrollEdgeEffectRef,
 } from "expo-scroll-edge-effect";
-import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 import {
   initialWindowMetrics,
   SafeAreaProvider,
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
-
-const logo = require("./assets/logo.png");
 
 export default function App() {
   return (
@@ -30,12 +28,9 @@ function Header() {
   return (
     <ScrollEdgeEffect
       edge="top"
-      style={[styles.header, { paddingTop: insets.top }]}
+      style={[styles.header, { height: insets.top }]}
       fallbackStyle={styles.fallback}
-    >
-      <Image source={logo} style={styles.headerImage} resizeMode="contain" />
-      <Text style={styles.headerText}>Example app</Text>
-    </ScrollEdgeEffect>
+    />
   );
 }
 
@@ -79,23 +74,10 @@ function Footer() {
 
 const styles = StyleSheet.create({
   header: {
-    paddingVertical: 16,
-    paddingHorizontal: 24,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 12,
     position: "absolute",
     top: 0,
     left: 0,
     right: 0,
-  },
-  headerImage: {
-    width: 32,
-    height: 32,
-  },
-  headerText: {
-    fontSize: 32,
-    fontWeight: "bold",
   },
   footer: {
     padding: 16,

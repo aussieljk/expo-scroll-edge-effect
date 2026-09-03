@@ -5,6 +5,7 @@
     "": {
       "name": "expo-scroll-edge-effect-example",
       "dependencies": {
+        "@expo/ngrok": "npm:expo-cloudflared@^4.2.1",
         "expo": "~57.0.19",
         "expo-dev-client": "~57.0.18",
         "expo-glass-effect": "~57.0.1",
@@ -188,6 +189,8 @@
     "@expo/metro-config": ["@expo/metro-config@57.0.12", "", { "dependencies": { "@babel/code-frame": "^7.20.0", "@babel/core": "^7.20.0", "@babel/generator": "^7.20.5", "@expo/config": "~57.0.9", "@expo/env": "~2.4.3", "@expo/json-file": "~11.0.1", "@expo/metro": "~56.0.2", "@expo/require-utils": "^57.0.5", "@expo/spawn-async": "^1.8.0", "@jridgewell/gen-mapping": "^0.3.13", "@jridgewell/remapping": "^2.3.5", "@jridgewell/sourcemap-codec": "^1.5.5", "browserslist": "^4.25.0", "chalk": "^4.1.0", "debug": "^4.3.2", "getenv": "^2.0.0", "glob": "^13.0.0", "hermes-parser": "^0.36.0", "jsc-safe-url": "^0.2.4", "lightningcss": "^1.30.1", "picomatch": "^4.0.4", "postcss": "^8.5.14", "resolve-from": "^5.0.0" }, "peerDependencies": { "expo": "*" }, "optionalPeers": ["expo"] }, "sha512-S62Lrq35HZqBFD55423pmWb8PjaiR/W02zQC1uECBmw1vTN8WZaFz4TJ0i21EeJzwfebMb9MLxL8JZ102Z6VbA=="],
 
     "@expo/metro-file-map": ["@expo/metro-file-map@57.0.2", "", { "dependencies": { "debug": "^4.3.4", "fb-watchman": "^2.0.2", "invariant": "^2.2.4", "jest-worker": "^29.7.0", "micromatch": "^4.0.4", "walker": "^1.0.8" } }, "sha512-tb50nSIWwKpRufSkGuivOK0FbUxv1Uwqptb0SzFTk0bkmYmcy3gIwnCbOHTfmrQDVndRhPEiu2SYgh9Z0PCvGg=="],
+
+    "@expo/ngrok": ["expo-cloudflared@4.2.1", "", { "bin": { "expo-cloudflared": "dist/cli.js" } }, "sha512-Q/ppxvgvXf8rH1Q+BduASATIh6kv3CC52GDTEthwBJD+HsBapfMfwcqazyrU+hdpvNYaRc9E3hjbJ/6TdBwisg=="],
 
     "@expo/osascript": ["@expo/osascript@2.7.1", "", { "dependencies": { "@expo/spawn-async": "^1.8.0" } }, "sha512-Zn03EX6In7ts2lPUW2ESUSkEhEWQN1qqsiXjadtZMJOuZRkMiAg1ZQHuvz9DjByDWNJ2pBwAGyrts9lj9k389g=="],
 
