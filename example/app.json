@@ -34,6 +34,9 @@
         "projectId": "edaaf2b1-d1f1-43f1-ae60-3fd3ba29d56d"
       }
     },
-    "owner": "lucaskniight"
+    "owner": "lucaskniight",
+    "plugins": [
+      "ios-builds-dev-client"
+    ]
   }
 }

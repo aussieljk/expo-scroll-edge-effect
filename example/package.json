@@ -9,19 +9,22 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "prebuild": "expo prebuild --clean",
-    "start:tunnel": "expo start --dev-client --tunnel"
+    "start:tunnel": "expo start --dev-client --tunnel",
+    "postinstall": "ios-builds-patch"
   },
   "dependencies": {
-    "expo": "~57.0.19",
-    "expo-dev-client": "~57.0.18",
-    "expo-glass-effect": "~57.0.1",
-    "react": "19.2.3",
-    "react-native": "0.86.3",
-    "react-native-safe-area-context": "~5.7.0",
-    "@expo/ngrok": "npm:expo-cloudflared@^4.2.1"
+    "@expo/ngrok": "npm:expo-cloudflared@^4.2.2",
+    "expo": "^58.0.0-preview.6",
+    "expo-cloudflared": "^4.2.2",
+    "expo-dev-client": "~58.0.6",
+    "expo-glass-effect": "~58.0.2",
+    "ios-builds-dev-client": "file:./vendor/ios-builds-dev-client-b479af1f6cf0.tgz",
+    "react": "19.3.0",
+    "react-native": "0.88.0-rc.1",
+    "react-native-safe-area-context": "~5.9.1"
   },
   "devDependencies": {
-    "@types/react": "~19.2.17",
+    "@types/react": "~19.3.0",
     "typescript": "~6.0.3"
   },
   "private": true,
