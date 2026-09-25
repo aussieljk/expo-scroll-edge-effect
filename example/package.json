@@ -18,7 +18,7 @@
     "expo-cloudflared": "^4.2.2",
     "expo-dev-client": "~58.0.6",
     "expo-glass-effect": "~58.0.2",
-    "ios-builds-dev-client": "file:./vendor/ios-builds-dev-client-b479af1f6cf0.tgz",
+    "ios-builds-dev-client": "file:./vendor/ios-builds-dev-client-8f3931fd9987.tgz",
     "react": "19.3.0",
     "react-native": "0.88.0-rc.1",
     "react-native-safe-area-context": "~5.9.1"
